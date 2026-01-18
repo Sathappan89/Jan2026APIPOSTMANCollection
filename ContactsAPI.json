@@ -1,0 +1,300 @@
+{
+  "info": {
+    "_postman_id": "7d3d50be-0793-41af-99d4-c8c2075462de",
+    "name": "ContactsAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50807239",
+    "_collection_link": "https://go.postman.co/collection/50807239-7d3d50be-0793-41af-99d4-c8c2075462de?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Login User-GetTokenID",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "const response = pm.response.json();",
+              "const tokenID= response.token;",
+              "console.log(\"token id is : \" + tokenID);",
+              "pm.collectionVariables.set(\"mytokenID\" ,tokenID ); //setter"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"email\": \"{{UserName}}\",\n    \"password\": \"{{Password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/users/login",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "users",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GETAllContacts",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var template = `",
+              "<table style=\"width:100%; border-collapse: collapse; font-family: Arial;\">",
+              "<tr style=\"background-color:#ff7f39; color:white; text-align:left;\">",
+              "    <th style=\"padding:8px; border:1px solid #ddd;\">ID</th>",
+              "    <th style=\"padding:8px; border:1px solid #ddd;\">Title</th>",
+              "    <th style=\"padding:8px; border:1px solid #ddd;\">Content</th>",
+              "    <th style=\"padding:8px; border:1px solid #ddd;\">CreatedAt</th>",
+              "    <th style=\"padding:8px; border:1px solid #ddd;\">UpdatedAt</th>",
+              "</tr>",
+              "{{#each response}}",
+              "<tr style=\"background-color:#f9f9f9;\">",
+              "    <td style=\"padding:8px; border:1px solid #ddd;\">{{id}}</td>",
+              "    <td style=\"padding:8px; border:1px solid #ddd;\">{{title}}</td>",
+              "    <td style=\"padding:8px; border:1px solid #ddd;\">{{content}}</td>",
+              "    <td style=\"padding:8px; border:1px solid #ddd;\">{{createdAt}}</td>",
+              "    <td style=\"padding:8px; border:1px solid #ddd;\">{{updatedAt}}</td>",
+              "</tr>",
+              "{{/each}}",
+              "</table>",
+              "`;",
+              "",
+              "pm.visualizer.set(template, {",
+              "    response: pm.response.json()",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "bearer"
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{tokenID}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/contacts",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "contacts"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GETUserID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{mytokenID}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseURL}}/contacts/69445f3198391100152863e6",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "contacts",
+            "69445f3198391100152863e6"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{mytokenID}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"firstName\": \"BASEURL\",\n    \"lastName\": \"User\",\n    \"email\": \"valut@fake.com\",\n    \"password\": \"myPassword\",\n    \"phone\": \"1234567899\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/contacts/69488a5404f4eb00154c3310",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "contacts",
+            "69488a5404f4eb00154c3310"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{mytokenID}}",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseURL}}/contacts/69488a5404f4eb00154c3310",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "contacts",
+            "69488a5404f4eb00154c3310"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ContactAPI_DataDrivenApproach",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"New Contact is created - Status code is 201\", function () {",
+              "    pm.response.to.have.status(201);",
+              "});",
+              "",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "{{contactToken}}",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"firstName\": \"{{firstName}}\",\n    \"lastName\": \"{{lastName}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"password\": \"{{password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseURL}}/contacts",
+          "host": [
+            "{{baseURL}}"
+          ],
+          "path": [
+            "contacts"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseURL",
+      "value": ""
+    },
+    {
+      "key": "UserName",
+      "value": ""
+    },
+    {
+      "key": "Password",
+      "value": ""
+    },
+    {
+      "key": "mytokenID",
+      "value": ""
+    }
+  ]
+}
