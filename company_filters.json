@@ -1,0 +1,44 @@
+[
+  {
+    "companyId": 10101,
+    "regionId": 36554,
+    "filters": [
+      {
+        "id": 101,
+        "name": "VENDOR",
+        "isAllowed": false
+      },
+      {
+        "id": 102,
+        "name": "COUNTRY",
+        "isAllowed": true
+      },
+      {
+        "id": 103,
+        "name": "MANUFACTURER",
+        "isAllowed": false
+      }
+    ]
+  },
+  {
+    "companyId": 10102,
+    "regionId": 36555,
+    "filters": [
+      {
+        "id": 101,
+        "name": "VENDOR",
+        "isAllowed": false
+      },
+      {
+        "id": 102,
+        "name": "COUNTRY",
+        "isAllowed": true
+      },
+      {
+        "id": 103,
+        "name": "MANUFACTURER",
+        "isAllowed": false
+      }
+    ]
+  }
+]

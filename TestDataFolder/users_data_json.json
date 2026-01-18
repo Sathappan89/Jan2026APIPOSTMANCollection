@@ -1,0 +1,28 @@
+[
+  {
+    "name": "nachu",
+    "gender": "male",
+    "status": "active"
+    
+  },
+  {
+    "name": "testing",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "name": "tester",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "name": "datatesting",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "name": "tester",
+    "gender": "female",
+    "status": "inactive"
+  }
+]
