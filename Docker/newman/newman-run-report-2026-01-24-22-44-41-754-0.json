@@ -7,7 +7,7 @@
     },
     "item": [
       {
-        "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
+        "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
         "name": "CreateUserwithDataDrivenApproach",
         "request": {
           "url": {
@@ -45,7 +45,7 @@
           {
             "listen": "test",
             "script": {
-              "id": "04aa97f6-e9fd-4057-b873-45273532ecc6",
+              "id": "44a1f2a0-e261-4db1-bc12-0a0e42252264",
               "type": "text/javascript",
               "packages": {},
               "exec": [
@@ -79,13 +79,13 @@
                 "pm.variables.set(\"user_id\",userID);",
                 ""
               ],
-              "_lastExecutionId": "c6773c14-2336-421d-a330-2e469411fde9"
+              "_lastExecutionId": "913f0e43-de80-4c63-9da2-66e0d4ab5244"
             }
           }
         ]
       },
       {
-        "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
+        "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
         "name": "Update the USER",
         "request": {
           "url": {
@@ -123,7 +123,7 @@
           {
             "listen": "test",
             "script": {
-              "id": "b3822678-7492-4575-8b34-aa5c16778adc",
+              "id": "30974bd1-b373-4974-9597-1e1e0e13346e",
               "type": "text/javascript",
               "packages": {},
               "exec": [
@@ -136,7 +136,7 @@
                 "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"newstatus\"));",
                 "});"
               ],
-              "_lastExecutionId": "0d0c123d-7cd8-4a01-899e-b8402322959f"
+              "_lastExecutionId": "47f6cb3d-ec90-40ab-90c6-1b61ba82d36b"
             }
           }
         ]
@@ -172,7 +172,7 @@
     ]
   },
   "globals": {
-    "id": "0623c9bd-5799-4a4b-8820-aa0bbd95ec54",
+    "id": "6d16339d-134f-492a-a6ff-61df7c774d73",
     "values": []
   },
   "run": {
@@ -224,10 +224,10 @@
       }
     },
     "timings": {
-      "responseAverage": 572.8333333333334,
-      "responseMin": 328,
-      "responseMax": 1099,
-      "responseSd": 333.09328856776574,
+      "responseAverage": 590,
+      "responseMin": 467,
+      "responseMax": 1129,
+      "responseSd": 241.14864019244789,
       "dnsAverage": 0,
       "dnsMin": 0,
       "dnsMax": 0,
@@ -236,8 +236,8 @@
       "firstByteMin": 0,
       "firstByteMax": 0,
       "firstByteSd": 0,
-      "started": 1768628832099,
-      "completed": 1768628835706
+      "started": 1769294677950,
+      "completed": 1769294681657
     },
     "executions": [
       {
@@ -250,11 +250,11 @@
           "eof": false,
           "bof": true,
           "cr": false,
-          "ref": "2d6a0114-1e45-41c2-9b05-874018a2f0b7",
-          "httpRequestId": "9adc91ed-455b-41e2-b28c-37ddcf3a0fc3"
+          "ref": "7a5157b2-c272-4a5c-b547-7235b2cef47d",
+          "httpRequestId": "a4002645-dc01-4ca9-9526-8dd2a98d9a28"
         },
         "item": {
-          "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
+          "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
           "name": "CreateUserwithDataDrivenApproach",
           "request": {
             "url": {
@@ -292,7 +292,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "04aa97f6-e9fd-4057-b873-45273532ecc6",
+                "id": "44a1f2a0-e261-4db1-bc12-0a0e42252264",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -326,7 +326,7 @@
                   "pm.variables.set(\"user_id\",userID);",
                   ""
                 ],
-                "_lastExecutionId": "c6773c14-2336-421d-a330-2e469411fde9"
+                "_lastExecutionId": "913f0e43-de80-4c63-9da2-66e0d4ab5244"
               }
             }
           ]
@@ -375,7 +375,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "2918372e-485a-451b-8e9b-ba8a8630a421",
+              "value": "7e355d42-a3b5-4498-a7a6-040f898e651b",
               "system": true
             },
             {
@@ -395,14 +395,14 @@
             },
             {
               "key": "Content-Length",
-              "value": "117",
+              "value": "114",
               "system": true
             }
           ],
           "method": "POST",
           "body": {
             "mode": "raw",
-            "raw": "\n{\n    \"name\": \"Ranjit\",\n    \"gender\": \"male\",\n    \"email\": \"Edward.Stanton@hotmail.com\",\n    \"status\": \"inactive\"\n}\n",
+            "raw": "\n{\n    \"name\": \"Ranjit\",\n    \"gender\": \"male\",\n    \"email\": \"Dawn_Hammes71@yahoo.com\",\n    \"status\": \"inactive\"\n}\n",
             "options": {
               "raw": {
                 "language": "json"
@@ -411,13 +411,13 @@
           }
         },
         "response": {
-          "id": "b4479a6d-c3c6-4015-9bdd-f32a099e6ba5",
+          "id": "47d2f24a-63e2-417f-9ecb-f2d665f298b1",
           "status": "Created",
           "code": 201,
           "header": [
             {
               "key": "Date",
-              "value": "Sat, 17 Jan 2026 05:47:13 GMT"
+              "value": "Sat, 24 Jan 2026 22:44:39 GMT"
             },
             {
               "key": "Content-Type",
@@ -425,7 +425,7 @@
             },
             {
               "key": "Content-Length",
-              "value": "103"
+              "value": "100"
             },
             {
               "key": "Connection",
@@ -437,7 +437,7 @@
             },
             {
               "key": "etag",
-              "value": "W/\"299fe82ed2b366f1460a7897680ea628\""
+              "value": "W/\"71a914412adce98bf5046159a05eb576\""
             },
             {
               "key": "feature-policy",
@@ -445,7 +445,7 @@
             },
             {
               "key": "location",
-              "value": "https://gorest.co.in/public/v2/users/8334571"
+              "value": "https://gorest.co.in/public/v2/users/8344213"
             },
             {
               "key": "referrer-policy",
@@ -477,7 +477,7 @@
             },
             {
               "key": "x-ratelimit-remaining",
-              "value": "84"
+              "value": "85"
             },
             {
               "key": "x-ratelimit-reset",
@@ -485,11 +485,11 @@
             },
             {
               "key": "x-request-id",
-              "value": "3c180a1e-a163-41b9-8122-5211467d7dd3"
+              "value": "46e1ffcf-5b32-46bb-bfe2-79df2f609602"
             },
             {
               "key": "x-runtime",
-              "value": "0.059218"
+              "value": "0.084835"
             },
             {
               "key": "x-xss-protection",
@@ -505,7 +505,7 @@
             },
             {
               "key": "Report-To",
-              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=i5M43Z89sKdGt%2F35Vj8t%2FD1eIcDMmETUGlwqhMKKD2bvQ%2FfZgQg%2F%2BO3zlAKCI5MFmmkM2MQFlGYuNUCX%2FdG%2BGjS6NnbXXTdjRIU%3D\"}]}"
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CQbErdYcgVPPoPQVWBbnhXTdLVSZXw1ZEmCQBusQEFk3u7%2BZF84Tn7lBmgTmFaMZxdPOGG5%2F6yHOzW8JuCCIkG6wN2j07swhqKM%3D\"}]}"
             },
             {
               "key": "Server",
@@ -513,7 +513,7 @@
             },
             {
               "key": "CF-RAY",
-              "value": "9bf38e798f867244-PHX"
+              "value": "9c330e7a597d5711-PHX"
             },
             {
               "key": "alt-svc",
@@ -531,11 +531,11 @@
               58,
               56,
               51,
-              51,
               52,
-              53,
-              55,
+              52,
+              50,
               49,
+              51,
               44,
               34,
               110,
@@ -562,28 +562,25 @@
               34,
               58,
               34,
-              69,
-              100,
+              68,
+              97,
               119,
-              97,
-              114,
-              100,
-              46,
-              83,
-              116,
-              97,
               110,
-              116,
-              111,
-              110,
+              95,
+              72,
+              97,
+              109,
+              109,
+              101,
+              115,
+              55,
+              49,
               64,
+              121,
+              97,
               104,
               111,
-              116,
-              109,
-              97,
-              105,
-              108,
+              111,
               46,
               99,
               111,
@@ -629,10 +626,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 1099,
-          "responseSize": 103
+          "responseTime": 1129,
+          "responseSize": 100
         },
-        "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
+        "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
         "assertions": [
           {
             "assertion": "Status code is 201",
@@ -646,15 +643,15 @@
       },
       {
         "cursor": {
-          "ref": "dfc39676-49df-4cc1-b68d-0c67ec036d16",
+          "ref": "b7ad2508-ae30-40b9-aafb-4e077d3b4381",
           "length": 2,
           "cycles": 3,
           "position": 1,
           "iteration": 0,
-          "httpRequestId": "40c99025-bc8e-44c8-91b4-45121b5de557"
+          "httpRequestId": "d47cdb57-6a94-4f3c-84f2-a8d769f7d14c"
         },
         "item": {
-          "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
+          "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
           "name": "Update the USER",
           "request": {
             "url": {
@@ -692,7 +689,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "b3822678-7492-4575-8b34-aa5c16778adc",
+                "id": "30974bd1-b373-4974-9597-1e1e0e13346e",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -705,7 +702,7 @@
                   "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"newstatus\"));",
                   "});"
                 ],
-                "_lastExecutionId": "0d0c123d-7cd8-4a01-899e-b8402322959f"
+                "_lastExecutionId": "47f6cb3d-ec90-40ab-90c6-1b61ba82d36b"
               }
             }
           ]
@@ -717,7 +714,7 @@
               "public",
               "v2",
               "users",
-              "8334571"
+              "8344213"
             ],
             "host": [
               "gorest",
@@ -754,7 +751,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "dd5fb0c4-adfd-4e26-a7be-c5946a2b8c42",
+              "value": "64436387-9469-4e3f-b226-0141d487061c",
               "system": true
             },
             {
@@ -790,13 +787,13 @@
           }
         },
         "response": {
-          "id": "5657076b-2c84-4643-9309-815b7e32a693",
+          "id": "c839387d-b96c-465d-add6-d318520dd4c8",
           "status": "OK",
           "code": 200,
           "header": [
             {
               "key": "Date",
-              "value": "Sat, 17 Jan 2026 05:47:14 GMT"
+              "value": "Sat, 24 Jan 2026 22:44:39 GMT"
             },
             {
               "key": "Content-Type",
@@ -816,414 +813,11 @@
             },
             {
               "key": "etag",
-              "value": "W/\"aa6ccc97430fea8e7816242b0d68eb1e\""
+              "value": "W/\"9b6f0bcd47ad487265236a55ba578fd4\""
             },
             {
               "key": "feature-policy",
               "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
-            },
-            {
-              "key": "referrer-policy",
-              "value": "strict-origin-when-cross-origin"
-            },
-            {
-              "key": "vary",
-              "value": "Origin"
-            },
-            {
-              "key": "x-content-type-options",
-              "value": "nosniff"
-            },
-            {
-              "key": "x-download-options",
-              "value": "noopen"
-            },
-            {
-              "key": "x-frame-options",
-              "value": "SAMEORIGIN"
-            },
-            {
-              "key": "x-permitted-cross-domain-policies",
-              "value": "none"
-            },
-            {
-              "key": "x-ratelimit-limit",
-              "value": "90"
-            },
-            {
-              "key": "x-ratelimit-remaining",
-              "value": "89"
-            },
-            {
-              "key": "x-ratelimit-reset",
-              "value": "1"
-            },
-            {
-              "key": "x-request-id",
-              "value": "d093c09b-98c0-425f-ba8c-d0117ff85606"
-            },
-            {
-              "key": "x-runtime",
-              "value": "0.045488"
-            },
-            {
-              "key": "x-xss-protection",
-              "value": "0"
-            },
-            {
-              "key": "Nel",
-              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
-            },
-            {
-              "key": "cf-cache-status",
-              "value": "DYNAMIC"
-            },
-            {
-              "key": "Report-To",
-              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0bZgZyplKOMmnCBojPatfNvo%2BPNOkXKiA17Gt%2B4cxuRhCJSPHI6jMNRLy2FQFmScUbq4XTr%2BAvqNrjqYYHE3PW0w72jwgLw6978%3D\"}]}"
-            },
-            {
-              "key": "Content-Encoding",
-              "value": "br"
-            },
-            {
-              "key": "Server",
-              "value": "cloudflare"
-            },
-            {
-              "key": "CF-RAY",
-              "value": "9bf38e7fe9077244-PHX"
-            },
-            {
-              "key": "alt-svc",
-              "value": "h3=\":443\"; ma=86400"
-            }
-          ],
-          "stream": {
-            "type": "Buffer",
-            "data": [
-              123,
-              34,
-              115,
-              116,
-              97,
-              116,
-              117,
-              115,
-              34,
-              58,
-              34,
-              97,
-              99,
-              116,
-              105,
-              118,
-              101,
-              34,
-              44,
-              34,
-              105,
-              100,
-              34,
-              58,
-              56,
-              51,
-              51,
-              52,
-              53,
-              55,
-              49,
-              44,
-              34,
-              110,
-              97,
-              109,
-              101,
-              34,
-              58,
-              34,
-              82,
-              97,
-              110,
-              106,
-              105,
-              116,
-              34,
-              44,
-              34,
-              101,
-              109,
-              97,
-              105,
-              108,
-              34,
-              58,
-              34,
-              69,
-              100,
-              119,
-              97,
-              114,
-              100,
-              46,
-              83,
-              116,
-              97,
-              110,
-              116,
-              111,
-              110,
-              64,
-              104,
-              111,
-              116,
-              109,
-              97,
-              105,
-              108,
-              46,
-              99,
-              111,
-              109,
-              34,
-              44,
-              34,
-              103,
-              101,
-              110,
-              100,
-              101,
-              114,
-              34,
-              58,
-              34,
-              109,
-              97,
-              108,
-              101,
-              34,
-              125
-            ]
-          },
-          "cookie": [],
-          "responseTime": 984,
-          "responseSize": 101
-        },
-        "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
-        "assertions": [
-          {
-            "assertion": "Status code is 200",
-            "skipped": false
-          },
-          {
-            "assertion": "Is user status updated",
-            "skipped": false
-          }
-        ]
-      },
-      {
-        "cursor": {
-          "ref": "7c53b1e5-fa52-44da-92db-5303ac3b3095",
-          "length": 2,
-          "cycles": 3,
-          "position": 0,
-          "iteration": 1,
-          "cr": true,
-          "httpRequestId": "0144a06c-9e55-4a1a-be32-e3b9f5f2b811"
-        },
-        "item": {
-          "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
-          "name": "CreateUserwithDataDrivenApproach",
-          "request": {
-            "url": {
-              "path": [
-                "public",
-                "v2",
-                "users",
-                ""
-              ],
-              "host": [
-                "{{baseURL}}"
-              ],
-              "query": [],
-              "variable": []
-            },
-            "header": [
-              {
-                "key": "Authorization",
-                "value": "{{tokenID}}"
-              }
-            ],
-            "method": "POST",
-            "body": {
-              "mode": "raw",
-              "raw": "//name, gender, status :  fetching from csv file: myuser.csv\n{\n    \"name\": \"{{name}}\",\n    \"gender\": \"{{gender}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"status\": \"{{status}}\"\n}\n//csv, json",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            }
-          },
-          "response": [],
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "04aa97f6-e9fd-4057-b873-45273532ecc6",
-                "type": "text/javascript",
-                "packages": {},
-                "exec": [
-                  "pm.test(\"Status code is 201\", function () {",
-                  "    pm.response.to.have.status(201);",
-                  "});",
-                  "",
-                  "pm.test(\"Your test name\", function () {",
-                  "    var jsonData = pm.response.json();",
-                  "",
-                  "    pm.expect(jsonData.name).to.eql(pm.iterationData.get(\"name\"));",
-                  "    pm.expect(jsonData.gender).to.eql(pm.iterationData.get(\"gender\"));",
-                  "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"status\"));",
-                  "    ",
-                  "}); ",
-                  "",
-                  "//fetch the email",
-                  "const rawJSONBody = pm.request.body.raw; //JSON String",
-                  "//json to JS Object",
-                  "const requestBody=JSON.parse(rawJSONBody); //JSON is an interface",
-                  "const email = requestBody.email; //expected variable",
-                  "console.log(\"Expected email ==>\" + email);",
-                  "//actual value . expected value",
-                  "var jsonData = pm.response.json();",
-                  "pm.expect(jsonData.email).to.eql(email);",
-                  "// LDECG",
-                  "",
-                  "const response = pm.response.json();",
-                  "const userID = response.id;",
-                  "console.log(\"User ID: \" + userID);",
-                  "pm.variables.set(\"user_id\",userID);",
-                  ""
-                ],
-                "_lastExecutionId": "c6773c14-2336-421d-a330-2e469411fde9"
-              }
-            }
-          ]
-        },
-        "request": {
-          "url": {
-            "protocol": "https",
-            "path": [
-              "public",
-              "v2",
-              "users",
-              ""
-            ],
-            "host": [
-              "gorest",
-              "co",
-              "in"
-            ],
-            "query": [],
-            "variable": []
-          },
-          "header": [
-            {
-              "key": "Authorization",
-              "value": "Bearer 83cae371c84eadfd72651ab2835b9c9c7cb17226f82dfb4850fd76e7edee016e"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json",
-              "system": true
-            },
-            {
-              "key": "User-Agent",
-              "value": "PostmanRuntime/7.39.1",
-              "system": true
-            },
-            {
-              "key": "Accept",
-              "value": "*/*",
-              "system": true
-            },
-            {
-              "key": "Cache-Control",
-              "value": "no-cache",
-              "system": true
-            },
-            {
-              "key": "Postman-Token",
-              "value": "7d491dd2-a554-4ee7-bc3f-5a507ca18746",
-              "system": true
-            },
-            {
-              "key": "Host",
-              "value": "gorest.co.in",
-              "system": true
-            },
-            {
-              "key": "Accept-Encoding",
-              "value": "gzip, deflate, br",
-              "system": true
-            },
-            {
-              "key": "Connection",
-              "value": "keep-alive",
-              "system": true
-            },
-            {
-              "key": "Content-Length",
-              "value": "113",
-              "system": true
-            }
-          ],
-          "method": "POST",
-          "body": {
-            "mode": "raw",
-            "raw": "\n{\n    \"name\": \"Zainab\",\n    \"gender\": \"female\",\n    \"email\": \"Kane_Jones@gmail.com\",\n    \"status\": \"inactive\"\n}\n",
-            "options": {
-              "raw": {
-                "language": "json"
-              }
-            }
-          }
-        },
-        "response": {
-          "id": "3685068d-3316-4f8b-9bf2-2f3ffbc21c55",
-          "status": "Created",
-          "code": 201,
-          "header": [
-            {
-              "key": "Date",
-              "value": "Sat, 17 Jan 2026 05:47:14 GMT"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json; charset=utf-8"
-            },
-            {
-              "key": "Content-Length",
-              "value": "99"
-            },
-            {
-              "key": "Connection",
-              "value": "keep-alive"
-            },
-            {
-              "key": "Cache-Control",
-              "value": "max-age=0, private, must-revalidate"
-            },
-            {
-              "key": "etag",
-              "value": "W/\"d9d9ce046a81fd8e3075e7baabd341aa\""
-            },
-            {
-              "key": "feature-policy",
-              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
-            },
-            {
-              "key": "location",
-              "value": "https://gorest.co.in/public/v2/users/8334573"
             },
             {
               "key": "referrer-policy",
@@ -1263,11 +857,11 @@
             },
             {
               "key": "x-request-id",
-              "value": "6d35361b-a9e9-475f-9399-f0d54c1dd579"
+              "value": "ede272ea-14b0-431c-850c-f8afc8647e06"
             },
             {
               "key": "x-runtime",
-              "value": "0.055669"
+              "value": "0.079551"
             },
             {
               "key": "x-xss-protection",
@@ -1283,7 +877,11 @@
             },
             {
               "key": "Report-To",
-              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rVdcLL8XcUVzBtdXmZjRIV3J1CdR5bMFX9TQ2XB4fhzZsDDq5yE34xtCSofwOaan5CCiFnwji8F0og91nGoIaldRlhcwasMY6gE%3D\"}]}"
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=awO0ZkPlM6keV5RU9bGNylPA%2B1FDXpt%2FRaqHMNWU2cp6UMYNY6hmGBzOstHF%2BqwFV995B29ks1DkM4L2wDauL8%2BAYUxhRBGTp5Q%3D\"}]}"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "br"
             },
             {
               "key": "Server",
@@ -1291,7 +889,7 @@
             },
             {
               "key": "CF-RAY",
-              "value": "9bf38e863f1e7244-PHX"
+              "value": "9c330e80ac745711-PHX"
             },
             {
               "key": "alt-svc",
@@ -1303,16 +901,34 @@
             "data": [
               123,
               34,
+              115,
+              116,
+              97,
+              116,
+              117,
+              115,
+              34,
+              58,
+              34,
+              97,
+              99,
+              116,
+              105,
+              118,
+              101,
+              34,
+              44,
+              34,
               105,
               100,
               34,
               58,
               56,
               51,
-              51,
               52,
-              53,
-              55,
+              52,
+              50,
+              49,
               51,
               44,
               34,
@@ -1323,12 +939,12 @@
               34,
               58,
               34,
-              90,
+              82,
               97,
-              105,
               110,
-              97,
-              98,
+              106,
+              105,
+              116,
               34,
               44,
               34,
@@ -1340,22 +956,25 @@
               34,
               58,
               34,
-              75,
+              68,
               97,
+              119,
               110,
-              101,
               95,
-              74,
-              111,
-              110,
+              72,
+              97,
+              109,
+              109,
               101,
               115,
+              55,
+              49,
               64,
-              103,
-              109,
+              121,
               97,
-              105,
-              108,
+              104,
+              111,
+              111,
               46,
               99,
               111,
@@ -1372,71 +991,50 @@
               34,
               58,
               34,
-              102,
-              101,
               109,
               97,
               108,
-              101,
-              34,
-              44,
-              34,
-              115,
-              116,
-              97,
-              116,
-              117,
-              115,
-              34,
-              58,
-              34,
-              105,
-              110,
-              97,
-              99,
-              116,
-              105,
-              118,
               101,
               34,
               125
             ]
           },
           "cookie": [],
-          "responseTime": 343,
-          "responseSize": 99
+          "responseTime": 467,
+          "responseSize": 98
         },
-        "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
+        "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
         "assertions": [
           {
-            "assertion": "Status code is 201",
+            "assertion": "Status code is 200",
             "skipped": false
           },
           {
-            "assertion": "Your test name",
+            "assertion": "Is user status updated",
             "skipped": false
           }
         ]
       },
       {
         "cursor": {
-          "ref": "498d167c-1ee5-45bd-882c-ef125784dd24",
+          "ref": "3c495d7d-8988-4412-8873-7c43cd83ac3e",
           "length": 2,
           "cycles": 3,
-          "position": 1,
+          "position": 0,
           "iteration": 1,
-          "httpRequestId": "f60ce3ca-5397-490a-b55e-2fd5511e0fc7"
+          "cr": true,
+          "httpRequestId": "c3589dc1-02c3-429d-aeaa-de94a5189648"
         },
         "item": {
-          "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
-          "name": "Update the USER",
+          "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
+          "name": "CreateUserwithDataDrivenApproach",
           "request": {
             "url": {
               "path": [
                 "public",
                 "v2",
                 "users",
-                "{{user_id}}"
+                ""
               ],
               "host": [
                 "{{baseURL}}"
@@ -1450,10 +1048,10 @@
                 "value": "{{tokenID}}"
               }
             ],
-            "method": "PUT",
+            "method": "POST",
             "body": {
               "mode": "raw",
-              "raw": "{\n    \"status\": \"{{newstatus}}\"\n}",
+              "raw": "//name, gender, status :  fetching from csv file: myuser.csv\n{\n    \"name\": \"{{name}}\",\n    \"gender\": \"{{gender}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"status\": \"{{status}}\"\n}\n//csv, json",
               "options": {
                 "raw": {
                   "language": "json"
@@ -1466,20 +1064,41 @@
             {
               "listen": "test",
               "script": {
-                "id": "b3822678-7492-4575-8b34-aa5c16778adc",
+                "id": "44a1f2a0-e261-4db1-bc12-0a0e42252264",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
-                  "pm.test(\"Status code is 200\", function () {",
-                  "    pm.response.to.have.status(200);",
+                  "pm.test(\"Status code is 201\", function () {",
+                  "    pm.response.to.have.status(201);",
                   "});",
                   "",
-                  "pm.test(\"Is user status updated\", function () {",
+                  "pm.test(\"Your test name\", function () {",
                   "    var jsonData = pm.response.json();",
-                  "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"newstatus\"));",
-                  "});"
+                  "",
+                  "    pm.expect(jsonData.name).to.eql(pm.iterationData.get(\"name\"));",
+                  "    pm.expect(jsonData.gender).to.eql(pm.iterationData.get(\"gender\"));",
+                  "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"status\"));",
+                  "    ",
+                  "}); ",
+                  "",
+                  "//fetch the email",
+                  "const rawJSONBody = pm.request.body.raw; //JSON String",
+                  "//json to JS Object",
+                  "const requestBody=JSON.parse(rawJSONBody); //JSON is an interface",
+                  "const email = requestBody.email; //expected variable",
+                  "console.log(\"Expected email ==>\" + email);",
+                  "//actual value . expected value",
+                  "var jsonData = pm.response.json();",
+                  "pm.expect(jsonData.email).to.eql(email);",
+                  "// LDECG",
+                  "",
+                  "const response = pm.response.json();",
+                  "const userID = response.id;",
+                  "console.log(\"User ID: \" + userID);",
+                  "pm.variables.set(\"user_id\",userID);",
+                  ""
                 ],
-                "_lastExecutionId": "0d0c123d-7cd8-4a01-899e-b8402322959f"
+                "_lastExecutionId": "913f0e43-de80-4c63-9da2-66e0d4ab5244"
               }
             }
           ]
@@ -1491,7 +1110,7 @@
               "public",
               "v2",
               "users",
-              "8334573"
+              ""
             ],
             "host": [
               "gorest",
@@ -1528,7 +1147,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "af181332-fd8c-4577-a983-532b469374c5",
+              "value": "ab17e1e5-baa4-43cd-9eb1-da3ade9b5af8",
               "system": true
             },
             {
@@ -1548,14 +1167,14 @@
             },
             {
               "key": "Content-Length",
-              "value": "26",
+              "value": "123",
               "system": true
             }
           ],
-          "method": "PUT",
+          "method": "POST",
           "body": {
             "mode": "raw",
-            "raw": "{\n    \"status\": \"active\"\n}",
+            "raw": "\n{\n    \"name\": \"Zainab\",\n    \"gender\": \"female\",\n    \"email\": \"Jermaine.Hermiston@hotmail.com\",\n    \"status\": \"inactive\"\n}\n",
             "options": {
               "raw": {
                 "language": "json"
@@ -1564,21 +1183,21 @@
           }
         },
         "response": {
-          "id": "1f12261d-1785-4514-91ce-ab680dfe3915",
-          "status": "OK",
-          "code": 200,
+          "id": "4ec67173-3487-44ed-acd6-d3a90aa70519",
+          "status": "Created",
+          "code": 201,
           "header": [
             {
               "key": "Date",
-              "value": "Sat, 17 Jan 2026 05:47:14 GMT"
+              "value": "Sat, 24 Jan 2026 22:44:40 GMT"
             },
             {
               "key": "Content-Type",
               "value": "application/json; charset=utf-8"
             },
             {
-              "key": "Transfer-Encoding",
-              "value": "chunked"
+              "key": "Content-Length",
+              "value": "109"
             },
             {
               "key": "Connection",
@@ -1590,11 +1209,15 @@
             },
             {
               "key": "etag",
-              "value": "W/\"c19fb0b45f185ff4d9b84ff6d3129394\""
+              "value": "W/\"6be867d662bfca4cae506885e9265062\""
             },
             {
               "key": "feature-policy",
               "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "location",
+              "value": "https://gorest.co.in/public/v2/users/8344214"
             },
             {
               "key": "referrer-policy",
@@ -1634,11 +1257,11 @@
             },
             {
               "key": "x-request-id",
-              "value": "d59380ae-1490-48b7-b859-fd6b920c1b18"
+              "value": "d57a17d8-d4eb-4320-a0e6-fa100eb4370a"
             },
             {
               "key": "x-runtime",
-              "value": "0.055775"
+              "value": "0.081735"
             },
             {
               "key": "x-xss-protection",
@@ -1654,7 +1277,388 @@
             },
             {
               "key": "Report-To",
-              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WUgNVClHhikId1%2B%2BxqFVvNHS5zNIJH3WBxjYgyH30Dit2Y9ZxS5AwoESouBeDaexLSoyP4Scn402aP5qKE6MSG7SHRryxLF2rzI%3D\"}]}"
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=iinWM%2Bs0twnQRP0oyoNSHB0Ul7IarTmerGlLQ%2F36%2BbVUiTIZ1%2FAhcQFzS8gPwfIk56SpA8UBQoVgpuHYSmI0JFdHcJYolNUjE7I%3D\"}]}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "9c330e83b9205711-PHX"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "stream": {
+            "type": "Buffer",
+            "data": [
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              56,
+              51,
+              52,
+              52,
+              50,
+              49,
+              52,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              90,
+              97,
+              105,
+              110,
+              97,
+              98,
+              34,
+              44,
+              34,
+              101,
+              109,
+              97,
+              105,
+              108,
+              34,
+              58,
+              34,
+              74,
+              101,
+              114,
+              109,
+              97,
+              105,
+              110,
+              101,
+              46,
+              72,
+              101,
+              114,
+              109,
+              105,
+              115,
+              116,
+              111,
+              110,
+              64,
+              104,
+              111,
+              116,
+              109,
+              97,
+              105,
+              108,
+              46,
+              99,
+              111,
+              109,
+              34,
+              44,
+              34,
+              103,
+              101,
+              110,
+              100,
+              101,
+              114,
+              34,
+              58,
+              34,
+              102,
+              101,
+              109,
+              97,
+              108,
+              101,
+              34,
+              44,
+              34,
+              115,
+              116,
+              97,
+              116,
+              117,
+              115,
+              34,
+              58,
+              34,
+              105,
+              110,
+              97,
+              99,
+              116,
+              105,
+              118,
+              101,
+              34,
+              125
+            ]
+          },
+          "cookie": [],
+          "responseTime": 486,
+          "responseSize": 109
+        },
+        "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
+        "assertions": [
+          {
+            "assertion": "Status code is 201",
+            "skipped": false
+          },
+          {
+            "assertion": "Your test name",
+            "skipped": false
+          }
+        ]
+      },
+      {
+        "cursor": {
+          "ref": "d173d100-17c9-48a5-8414-74c5fea1257d",
+          "length": 2,
+          "cycles": 3,
+          "position": 1,
+          "iteration": 1,
+          "httpRequestId": "ce2b10e0-a990-4fc4-ba05-980b75085b01"
+        },
+        "item": {
+          "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
+          "name": "Update the USER",
+          "request": {
+            "url": {
+              "path": [
+                "public",
+                "v2",
+                "users",
+                "{{user_id}}"
+              ],
+              "host": [
+                "{{baseURL}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{tokenID}}"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"status\": \"{{newstatus}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "30974bd1-b373-4974-9597-1e1e0e13346e",
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"Is user status updated\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"newstatus\"));",
+                  "});"
+                ],
+                "_lastExecutionId": "47f6cb3d-ec90-40ab-90c6-1b61ba82d36b"
+              }
+            }
+          ]
+        },
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "public",
+              "v2",
+              "users",
+              "8344214"
+            ],
+            "host": [
+              "gorest",
+              "co",
+              "in"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "Bearer 83cae371c84eadfd72651ab2835b9c9c7cb17226f82dfb4850fd76e7edee016e"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "system": true
+            },
+            {
+              "key": "User-Agent",
+              "value": "PostmanRuntime/7.39.1",
+              "system": true
+            },
+            {
+              "key": "Accept",
+              "value": "*/*",
+              "system": true
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache",
+              "system": true
+            },
+            {
+              "key": "Postman-Token",
+              "value": "5a8ced03-4c75-4874-baff-0ad30f0f3060",
+              "system": true
+            },
+            {
+              "key": "Host",
+              "value": "gorest.co.in",
+              "system": true
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "gzip, deflate, br",
+              "system": true
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "system": true
+            },
+            {
+              "key": "Content-Length",
+              "value": "26",
+              "system": true
+            }
+          ],
+          "method": "PUT",
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"status\": \"active\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          }
+        },
+        "response": {
+          "id": "fe97f89b-0452-4101-bdf8-9a7e53a61544",
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sat, 24 Jan 2026 22:44:40 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"dc3bec106a4dd381f996987a98cda8d4\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "87"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "3"
+            },
+            {
+              "key": "x-request-id",
+              "value": "e95f9ee0-15b9-4c5e-af92-e2c99f4d6129"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.074075"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=rV%2Fz4m6mU%2BUD35H3OrlkqtES2S5PKRy0j4Zmnf4ct5KThjKVb8UtI2G3G3pjKCAmuwx3cktTjgqq%2BwvL1Xz0s2jUaPjpbpWyVC4%3D\"}]}"
             },
             {
               "key": "Content-Encoding",
@@ -1666,7 +1670,7 @@
             },
             {
               "key": "CF-RAY",
-              "value": "9bf38e888f3a7244-PHX"
+              "value": "9c330e86ee075711-PHX"
             },
             {
               "key": "alt-svc",
@@ -1702,11 +1706,11 @@
               58,
               56,
               51,
-              51,
               52,
-              53,
-              55,
-              51,
+              52,
+              50,
+              49,
+              52,
               44,
               34,
               110,
@@ -1733,18 +1737,28 @@
               34,
               58,
               34,
-              75,
+              74,
+              101,
+              114,
+              109,
               97,
+              105,
               110,
               101,
-              95,
-              74,
+              46,
+              72,
+              101,
+              114,
+              109,
+              105,
+              115,
+              116,
               111,
               110,
-              101,
-              115,
               64,
-              103,
+              104,
+              111,
+              116,
               109,
               97,
               105,
@@ -1776,10 +1790,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 342,
-          "responseSize": 97
+          "responseTime": 487,
+          "responseSize": 107
         },
-        "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
+        "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
         "assertions": [
           {
             "assertion": "Status code is 200",
@@ -1793,16 +1807,16 @@
       },
       {
         "cursor": {
-          "ref": "1f623fb2-ae31-4c32-ab9e-f7d21d12f54c",
+          "ref": "4024b7d2-1f10-4814-95c4-2f2dfd4e6f34",
           "length": 2,
           "cycles": 3,
           "position": 0,
           "iteration": 2,
           "cr": true,
-          "httpRequestId": "14b9652d-ad83-4e29-a3f2-3d3ea6430b1f"
+          "httpRequestId": "f1d787fe-f5d4-4551-9ccf-dba5bf036fba"
         },
         "item": {
-          "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
+          "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
           "name": "CreateUserwithDataDrivenApproach",
           "request": {
             "url": {
@@ -1840,7 +1854,7 @@
             {
               "listen": "test",
               "script": {
-                "id": "04aa97f6-e9fd-4057-b873-45273532ecc6",
+                "id": "44a1f2a0-e261-4db1-bc12-0a0e42252264",
                 "type": "text/javascript",
                 "packages": {},
                 "exec": [
@@ -1874,7 +1888,7 @@
                   "pm.variables.set(\"user_id\",userID);",
                   ""
                 ],
-                "_lastExecutionId": "c6773c14-2336-421d-a330-2e469411fde9"
+                "_lastExecutionId": "913f0e43-de80-4c63-9da2-66e0d4ab5244"
               }
             }
           ]
@@ -1923,7 +1937,7 @@
             },
             {
               "key": "Postman-Token",
-              "value": "e9828c40-902e-459d-99c9-1471c1c63d15",
+              "value": "0a654daf-ddab-45c0-a801-169504ec2683",
               "system": true
             },
             {
@@ -1943,14 +1957,14 @@
             },
             {
               "key": "Content-Length",
-              "value": "119",
+              "value": "117",
               "system": true
             }
           ],
           "method": "POST",
           "body": {
             "mode": "raw",
-            "raw": "\n{\n    \"name\": \"Naveen\",\n    \"gender\": \"male\",\n    \"email\": \"Rahsaan.Erdman54@hotmail.com\",\n    \"status\": \"inactive\"\n}\n",
+            "raw": "\n{\n    \"name\": \"Naveen\",\n    \"gender\": \"male\",\n    \"email\": \"Sandrine.Ortiz25@yahoo.com\",\n    \"status\": \"inactive\"\n}\n",
             "options": {
               "raw": {
                 "language": "json"
@@ -1959,13 +1973,13 @@
           }
         },
         "response": {
-          "id": "95b57855-39bb-41ba-b22b-13018d84b9d6",
+          "id": "2fa1cc4b-45e3-4d9b-853e-a231a65ad8f6",
           "status": "Created",
           "code": 201,
           "header": [
             {
               "key": "Date",
-              "value": "Sat, 17 Jan 2026 05:47:15 GMT"
+              "value": "Sat, 24 Jan 2026 22:44:41 GMT"
             },
             {
               "key": "Content-Type",
@@ -1973,7 +1987,7 @@
             },
             {
               "key": "Content-Length",
-              "value": "105"
+              "value": "103"
             },
             {
               "key": "Connection",
@@ -1985,7 +1999,7 @@
             },
             {
               "key": "etag",
-              "value": "W/\"814783b7a5266179ad19a3bdd248482d\""
+              "value": "W/\"e78a007b42f406c4a5e1c91c03e7bd10\""
             },
             {
               "key": "feature-policy",
@@ -1993,384 +2007,7 @@
             },
             {
               "key": "location",
-              "value": "https://gorest.co.in/public/v2/users/8334574"
-            },
-            {
-              "key": "referrer-policy",
-              "value": "strict-origin-when-cross-origin"
-            },
-            {
-              "key": "vary",
-              "value": "Origin"
-            },
-            {
-              "key": "x-content-type-options",
-              "value": "nosniff"
-            },
-            {
-              "key": "x-download-options",
-              "value": "noopen"
-            },
-            {
-              "key": "x-frame-options",
-              "value": "SAMEORIGIN"
-            },
-            {
-              "key": "x-permitted-cross-domain-policies",
-              "value": "none"
-            },
-            {
-              "key": "x-ratelimit-limit",
-              "value": "90"
-            },
-            {
-              "key": "x-ratelimit-remaining",
-              "value": "87"
-            },
-            {
-              "key": "x-ratelimit-reset",
-              "value": "3"
-            },
-            {
-              "key": "x-request-id",
-              "value": "fb608bd8-7ce5-4505-bdfb-08f163b52494"
-            },
-            {
-              "key": "x-runtime",
-              "value": "0.040701"
-            },
-            {
-              "key": "x-xss-protection",
-              "value": "0"
-            },
-            {
-              "key": "Nel",
-              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
-            },
-            {
-              "key": "cf-cache-status",
-              "value": "DYNAMIC"
-            },
-            {
-              "key": "Report-To",
-              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Kd9L4sj8bx66G1aXbzctASK7ZcM6hWR5DVsB%2FWrA0b3h1e5GigU6oEOmTAW%2FdMynTVGqs4WeIXIN0rUr1E70dXETG0OjcufBoFA%3D\"}]}"
-            },
-            {
-              "key": "Server",
-              "value": "cloudflare"
-            },
-            {
-              "key": "CF-RAY",
-              "value": "9bf38e8ac8b17244-PHX"
-            },
-            {
-              "key": "alt-svc",
-              "value": "h3=\":443\"; ma=86400"
-            }
-          ],
-          "stream": {
-            "type": "Buffer",
-            "data": [
-              123,
-              34,
-              105,
-              100,
-              34,
-              58,
-              56,
-              51,
-              51,
-              52,
-              53,
-              55,
-              52,
-              44,
-              34,
-              110,
-              97,
-              109,
-              101,
-              34,
-              58,
-              34,
-              78,
-              97,
-              118,
-              101,
-              101,
-              110,
-              34,
-              44,
-              34,
-              101,
-              109,
-              97,
-              105,
-              108,
-              34,
-              58,
-              34,
-              82,
-              97,
-              104,
-              115,
-              97,
-              97,
-              110,
-              46,
-              69,
-              114,
-              100,
-              109,
-              97,
-              110,
-              53,
-              52,
-              64,
-              104,
-              111,
-              116,
-              109,
-              97,
-              105,
-              108,
-              46,
-              99,
-              111,
-              109,
-              34,
-              44,
-              34,
-              103,
-              101,
-              110,
-              100,
-              101,
-              114,
-              34,
-              58,
-              34,
-              109,
-              97,
-              108,
-              101,
-              34,
-              44,
-              34,
-              115,
-              116,
-              97,
-              116,
-              117,
-              115,
-              34,
-              58,
-              34,
-              105,
-              110,
-              97,
-              99,
-              116,
-              105,
-              118,
-              101,
-              34,
-              125
-            ]
-          },
-          "cookie": [],
-          "responseTime": 328,
-          "responseSize": 105
-        },
-        "id": "7ae766d9-7e0e-45d6-824f-83a657839254",
-        "assertions": [
-          {
-            "assertion": "Status code is 201",
-            "skipped": false
-          },
-          {
-            "assertion": "Your test name",
-            "skipped": false
-          }
-        ]
-      },
-      {
-        "cursor": {
-          "ref": "5abbc564-44bc-4134-8b57-46ea3f4b852c",
-          "length": 2,
-          "cycles": 3,
-          "position": 1,
-          "iteration": 2,
-          "httpRequestId": "65684f86-59c9-4c74-90eb-b555ca851d84"
-        },
-        "item": {
-          "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
-          "name": "Update the USER",
-          "request": {
-            "url": {
-              "path": [
-                "public",
-                "v2",
-                "users",
-                "{{user_id}}"
-              ],
-              "host": [
-                "{{baseURL}}"
-              ],
-              "query": [],
-              "variable": []
-            },
-            "header": [
-              {
-                "key": "Authorization",
-                "value": "{{tokenID}}"
-              }
-            ],
-            "method": "PUT",
-            "body": {
-              "mode": "raw",
-              "raw": "{\n    \"status\": \"{{newstatus}}\"\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            }
-          },
-          "response": [],
-          "event": [
-            {
-              "listen": "test",
-              "script": {
-                "id": "b3822678-7492-4575-8b34-aa5c16778adc",
-                "type": "text/javascript",
-                "packages": {},
-                "exec": [
-                  "pm.test(\"Status code is 200\", function () {",
-                  "    pm.response.to.have.status(200);",
-                  "});",
-                  "",
-                  "pm.test(\"Is user status updated\", function () {",
-                  "    var jsonData = pm.response.json();",
-                  "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"newstatus\"));",
-                  "});"
-                ],
-                "_lastExecutionId": "0d0c123d-7cd8-4a01-899e-b8402322959f"
-              }
-            }
-          ]
-        },
-        "request": {
-          "url": {
-            "protocol": "https",
-            "path": [
-              "public",
-              "v2",
-              "users",
-              "8334574"
-            ],
-            "host": [
-              "gorest",
-              "co",
-              "in"
-            ],
-            "query": [],
-            "variable": []
-          },
-          "header": [
-            {
-              "key": "Authorization",
-              "value": "Bearer 83cae371c84eadfd72651ab2835b9c9c7cb17226f82dfb4850fd76e7edee016e"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json",
-              "system": true
-            },
-            {
-              "key": "User-Agent",
-              "value": "PostmanRuntime/7.39.1",
-              "system": true
-            },
-            {
-              "key": "Accept",
-              "value": "*/*",
-              "system": true
-            },
-            {
-              "key": "Cache-Control",
-              "value": "no-cache",
-              "system": true
-            },
-            {
-              "key": "Postman-Token",
-              "value": "02e38fda-f5da-4512-a079-4455deb6e9cf",
-              "system": true
-            },
-            {
-              "key": "Host",
-              "value": "gorest.co.in",
-              "system": true
-            },
-            {
-              "key": "Accept-Encoding",
-              "value": "gzip, deflate, br",
-              "system": true
-            },
-            {
-              "key": "Connection",
-              "value": "keep-alive",
-              "system": true
-            },
-            {
-              "key": "Content-Length",
-              "value": "26",
-              "system": true
-            }
-          ],
-          "method": "PUT",
-          "body": {
-            "mode": "raw",
-            "raw": "{\n    \"status\": \"active\"\n}",
-            "options": {
-              "raw": {
-                "language": "json"
-              }
-            }
-          }
-        },
-        "response": {
-          "id": "e1864dd1-fe32-42b1-a1ff-6c5e7bb592c3",
-          "status": "OK",
-          "code": 200,
-          "header": [
-            {
-              "key": "Date",
-              "value": "Sat, 17 Jan 2026 05:47:15 GMT"
-            },
-            {
-              "key": "Content-Type",
-              "value": "application/json; charset=utf-8"
-            },
-            {
-              "key": "Transfer-Encoding",
-              "value": "chunked"
-            },
-            {
-              "key": "Connection",
-              "value": "keep-alive"
-            },
-            {
-              "key": "Cache-Control",
-              "value": "max-age=0, private, must-revalidate"
-            },
-            {
-              "key": "etag",
-              "value": "W/\"8455c734f107c04d94c87049f0367512\""
-            },
-            {
-              "key": "feature-policy",
-              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+              "value": "https://gorest.co.in/public/v2/users/8344215"
             },
             {
               "key": "referrer-policy",
@@ -2410,11 +2047,11 @@
             },
             {
               "key": "x-request-id",
-              "value": "d5f0e682-0267-44a9-9a27-3d4627e9c92f"
+              "value": "da9526f7-5c8f-43c1-91e7-daf8c083e03d"
             },
             {
               "key": "x-runtime",
-              "value": "0.053212"
+              "value": "0.082745"
             },
             {
               "key": "x-xss-protection",
@@ -2430,7 +2067,382 @@
             },
             {
               "key": "Report-To",
-              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=60Dm2uKrf2UzLbxHxjAQjLvavJhgaKbuWUxcXKiq3dgXdgdm8IA1FhcI5ceSv6062DidA5lzbgZEx9bzZOFc%2FEZfIIxOuO6gUoA%3D\"}]}"
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=gTEuWca206MPppOZW4j%2B4EU9gofzOx93EkSFG%2BqWgTOWyzUY9kBVnLEbeG5OXwWS421%2FDJnVnoucpCtHvcWiGlfZfFq7EmHjSNE%3D\"}]}"
+            },
+            {
+              "key": "Server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "CF-RAY",
+              "value": "9c330e8a2aaf5711-PHX"
+            },
+            {
+              "key": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            }
+          ],
+          "stream": {
+            "type": "Buffer",
+            "data": [
+              123,
+              34,
+              105,
+              100,
+              34,
+              58,
+              56,
+              51,
+              52,
+              52,
+              50,
+              49,
+              53,
+              44,
+              34,
+              110,
+              97,
+              109,
+              101,
+              34,
+              58,
+              34,
+              78,
+              97,
+              118,
+              101,
+              101,
+              110,
+              34,
+              44,
+              34,
+              101,
+              109,
+              97,
+              105,
+              108,
+              34,
+              58,
+              34,
+              83,
+              97,
+              110,
+              100,
+              114,
+              105,
+              110,
+              101,
+              46,
+              79,
+              114,
+              116,
+              105,
+              122,
+              50,
+              53,
+              64,
+              121,
+              97,
+              104,
+              111,
+              111,
+              46,
+              99,
+              111,
+              109,
+              34,
+              44,
+              34,
+              103,
+              101,
+              110,
+              100,
+              101,
+              114,
+              34,
+              58,
+              34,
+              109,
+              97,
+              108,
+              101,
+              34,
+              44,
+              34,
+              115,
+              116,
+              97,
+              116,
+              117,
+              115,
+              34,
+              58,
+              34,
+              105,
+              110,
+              97,
+              99,
+              116,
+              105,
+              118,
+              101,
+              34,
+              125
+            ]
+          },
+          "cookie": [],
+          "responseTime": 486,
+          "responseSize": 103
+        },
+        "id": "43a57e8c-3202-4da4-8d1e-5a85e653e52a",
+        "assertions": [
+          {
+            "assertion": "Status code is 201",
+            "skipped": false
+          },
+          {
+            "assertion": "Your test name",
+            "skipped": false
+          }
+        ]
+      },
+      {
+        "cursor": {
+          "ref": "01fa8417-098c-4734-8fc2-988c833cb344",
+          "length": 2,
+          "cycles": 3,
+          "position": 1,
+          "iteration": 2,
+          "httpRequestId": "8f4d5f72-45a7-4092-8cbe-3aeeb58d28b5"
+        },
+        "item": {
+          "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
+          "name": "Update the USER",
+          "request": {
+            "url": {
+              "path": [
+                "public",
+                "v2",
+                "users",
+                "{{user_id}}"
+              ],
+              "host": [
+                "{{baseURL}}"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{tokenID}}"
+              }
+            ],
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"status\": \"{{newstatus}}\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "30974bd1-b373-4974-9597-1e1e0e13346e",
+                "type": "text/javascript",
+                "packages": {},
+                "exec": [
+                  "pm.test(\"Status code is 200\", function () {",
+                  "    pm.response.to.have.status(200);",
+                  "});",
+                  "",
+                  "pm.test(\"Is user status updated\", function () {",
+                  "    var jsonData = pm.response.json();",
+                  "    pm.expect(jsonData.status).to.eql(pm.iterationData.get(\"newstatus\"));",
+                  "});"
+                ],
+                "_lastExecutionId": "47f6cb3d-ec90-40ab-90c6-1b61ba82d36b"
+              }
+            }
+          ]
+        },
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "public",
+              "v2",
+              "users",
+              "8344215"
+            ],
+            "host": [
+              "gorest",
+              "co",
+              "in"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "Bearer 83cae371c84eadfd72651ab2835b9c9c7cb17226f82dfb4850fd76e7edee016e"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json",
+              "system": true
+            },
+            {
+              "key": "User-Agent",
+              "value": "PostmanRuntime/7.39.1",
+              "system": true
+            },
+            {
+              "key": "Accept",
+              "value": "*/*",
+              "system": true
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache",
+              "system": true
+            },
+            {
+              "key": "Postman-Token",
+              "value": "c784aca0-8337-4ace-ab01-34c4c99ff63a",
+              "system": true
+            },
+            {
+              "key": "Host",
+              "value": "gorest.co.in",
+              "system": true
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "gzip, deflate, br",
+              "system": true
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "system": true
+            },
+            {
+              "key": "Content-Length",
+              "value": "26",
+              "system": true
+            }
+          ],
+          "method": "PUT",
+          "body": {
+            "mode": "raw",
+            "raw": "{\n    \"status\": \"active\"\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          }
+        },
+        "response": {
+          "id": "b6f15011-e4cd-455e-b587-56ad965ead85",
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sat, 24 Jan 2026 22:44:41 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Cache-Control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"9b4f442b204bcaadc01f2d8c59daddbe\""
+            },
+            {
+              "key": "feature-policy",
+              "value": "camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'"
+            },
+            {
+              "key": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "key": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "key": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "key": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "key": "x-ratelimit-limit",
+              "value": "90"
+            },
+            {
+              "key": "x-ratelimit-remaining",
+              "value": "85"
+            },
+            {
+              "key": "x-ratelimit-reset",
+              "value": "4"
+            },
+            {
+              "key": "x-request-id",
+              "value": "9eabda7c-c39a-4342-9b34-b629afb55700"
+            },
+            {
+              "key": "x-runtime",
+              "value": "0.074965"
+            },
+            {
+              "key": "x-xss-protection",
+              "value": "0"
+            },
+            {
+              "key": "Nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "key": "Report-To",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WT7ZGUWPRjt1nC2zIjroNos132VE7%2FKS0R5VQO59QlyFaOlEzzgrTv2zVxHoGYD%2Fo5x%2BdrQd5RT%2FgzGMY2xcarGUpLUKEDjf6us%3D\"}]}"
             },
             {
               "key": "Content-Encoding",
@@ -2442,7 +2454,7 @@
             },
             {
               "key": "CF-RAY",
-              "value": "9bf38e8d09547244-PHX"
+              "value": "9c330e8d586d5711-PHX"
             },
             {
               "key": "alt-svc",
@@ -2478,11 +2490,11 @@
               58,
               56,
               51,
-              51,
               52,
+              52,
+              50,
+              49,
               53,
-              55,
-              52,
               44,
               34,
               110,
@@ -2509,30 +2521,28 @@
               34,
               58,
               34,
-              82,
-              97,
-              104,
-              115,
-              97,
+              83,
               97,
               110,
-              46,
-              69,
-              114,
               100,
-              109,
-              97,
+              114,
+              105,
               110,
+              101,
+              46,
+              79,
+              114,
+              116,
+              105,
+              122,
+              50,
               53,
-              52,
               64,
+              121,
+              97,
               104,
               111,
-              116,
-              109,
-              97,
-              105,
-              108,
+              111,
               46,
               99,
               111,
@@ -2558,10 +2568,10 @@
             ]
           },
           "cookie": [],
-          "responseTime": 341,
-          "responseSize": 103
+          "responseTime": 485,
+          "responseSize": 101
         },
-        "id": "4a1b794d-836a-4865-8b60-3e50ac083354",
+        "id": "72057e52-8af2-4a6a-bc7b-80038ee9bcda",
         "assertions": [
           {
             "assertion": "Status code is 200",
@@ -2575,7 +2585,7 @@
       }
     ],
     "transfers": {
-      "responseTotal": 608
+      "responseTotal": 618
     },
     "failures": [],
     "error": null
